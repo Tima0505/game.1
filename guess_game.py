@@ -14,9 +14,10 @@ def check_guess(secret: int, guess: int) -> str:
     if guess == secret:
         return "equal"
     elif guess < secret:
-        return "greater"  # загаданное больше
+        return "greater"  
     else:
-        return "less"     # загаданное меньше
+        return "less"   
+    
 
 
 def validate_guess(user_input: str) -> int:
